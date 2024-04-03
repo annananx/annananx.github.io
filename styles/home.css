@@ -1,0 +1,50 @@
+@import "styles/variables.css";
+@import "styles/fonts.css";
+
+.home-body-items {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+
+  padding: 20px 20px;
+
+  justify-self: center;
+  align-self: center;
+
+  height: 75vh;
+
+  justify-items: center;
+  align-items: center;
+
+  color: var(--textdark-color);
+  font-weight: var(--fontweight-normal);
+}
+
+.home-body-items img {
+  grid-column: 1;
+
+  padding: 20px 20px;
+
+  width: auto;
+  max-height: 60vh;
+}
+
+.home-body-name {
+  color: var(--primary-color);
+}
+
+.home-body-text {
+  max-width: 80%;
+  padding: 20px 20px;
+}
+
+.home-body-text a {
+  color: var(--textdark-color);
+  text-decoration: none;
+}
+
+/* for the `contact me` link*/ 
+.home-body-text a:hover {
+  color: var(--primary-color);
+
+  font-weight: var(--fontweight-highlight);
+}

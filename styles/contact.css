@@ -1,0 +1,27 @@
+@import "styles/variables.css";
+
+.contact-body {
+  display: inline-flex;
+  flex-direction: column;
+
+  margin: 100px 300px;
+  align-content: center;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+
+  justify-content: center;
+}
+
+.email-icon:hover,
+.github-icon:hover,
+.linkedin-icon:hover {
+  filter: grayscale(100%);
+}
+
+.icons button {
+  border: none;
+  background-color: transparent;
+}

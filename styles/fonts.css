@@ -1,0 +1,37 @@
+@import "styles/variables.css";
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Montserrat-Medium) format("ttf");
+}
+
+p,
+a,
+h1,
+h2,
+h3 {
+  font-family: var(--font-family);
+  color: var(--textdark-color);
+}
+
+h1 {
+  font-size: var(--fontsize-home-highlight);
+  font-weight: var(--fontweight-highlight);
+}
+
+h2 {
+  font-size: var(--fontsize-home);
+  font-weight: var(--fontweight-normal);
+}
+
+h3 {
+    font-size: var(--fontsize-header);
+    font-weight: var(--fontweight-highlight);
+}
+
+p {
+    font-size: var(--fontsize-body);
+    font-weight: var(--fontweight-normal);
+}

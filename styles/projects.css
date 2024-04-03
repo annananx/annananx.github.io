@@ -1,0 +1,8 @@
+.projects-body-items {
+    display: grid;
+
+    height: 70vh;
+
+    align-content: center;
+    justify-content: center;
+}

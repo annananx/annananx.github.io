@@ -1,0 +1,23 @@
+:root {
+    /*COLORS*/
+    --primary-color: #557650; 
+
+    --background-color: #FFFFFF; 
+
+    --textdark-color: #313131; 
+    --textlight-color: #FFFFFF; 
+
+    /*FONT SIZES*/
+    --fontsize-body: 18px;
+    --fontsize-header: 24px;
+    --fontsize-home: 28px;
+    --fontsize-home-highlight: 48px;
+
+
+    /*FONT WEIGHTS*/
+    --fontweight-normal: 400;
+    --fontweight-highlight: 700;
+
+    /* FONT FAMILY*/ 
+    --font-family: 'Montserrat';
+}

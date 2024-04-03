@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Calmbach</title>
+    <meta name="keywords" content="anna calmbach, anna, calmbach, uds, Universität, Saarland">
+    
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico" type="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" type="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img src="images/logo_sig.svg" alt="Logo">
+        <div class="items-flex-container">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <div class="contact-body">
+        <h1>Let's get in touch!</h1>
+        <h2>If you are interested in my work and would like to get in touch, please feel free to contact me via the
+            options below. I am always happy to get to know and learn about new and inspiring people.</h2>
+        <div class="icons">
+            <button onclick="copyToClipboard('ancalmbach@gmail.com')"><img class="email-icon" src="images/mail.svg"
+                    alt="Email"></svg></button>
+            <a href="https://github.com/annananx"><img class="github-icon" src="images/github.svg" alt="GitHub"></a>
+            <a href="https://linkedin.com/in/anna-calmbach-a95040270"><img class="linkedin-icon" src="images/linkedin.svg"
+                    alt="LinkedIn"></a>
+
+        </div>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            // Create a temporary input element
+            var tempInput = document.createElement("input");
+            // Set its value to the text you want to copy
+            tempInput.value = text;
+            // Append it to the DOM
+            document.body.appendChild(tempInput);
+            // Select the text in the input
+            tempInput.select();
+            // Copy the selected text
+            document.execCommand("copy");
+            // Remove the temporary input
+            document.body.removeChild(tempInput);
+            alert("Copied to clipboard: " + text);
+        }
+    </script>
+
+</body>
+
+</html>
